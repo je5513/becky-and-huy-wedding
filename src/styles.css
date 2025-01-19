@@ -6,9 +6,6 @@ body {
   background-color: var(--primary-colour);
 }
 
-.header-image {
-}
-
 .couple-names {
   text-align: center;
   font-family: "Alex Brush", serif;
@@ -26,9 +23,18 @@ body {
   text-align: center;
   line-height: 1;
   margin: 8px 0;
+  padding-bottom: 10px;
   color: #565458;
   font-size: 20px;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 4px;
+}
+
+.nav-item {
+  padding: 10px 30px;
+}
+
+.serif-medium {
+  font-family: "Source Serif 4", serif;
 }
