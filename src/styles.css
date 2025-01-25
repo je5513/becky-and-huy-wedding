@@ -1,5 +1,7 @@
 :root {
   --primary-colour: #f8ebda;
+  --secondary-colour: #e17c38;
+  --primary-font: "Source Serif 4", serif;
 }
 
 body {
@@ -11,7 +13,7 @@ body {
   font-family: "Alex Brush", serif;
   line-height: 1;
   margin: 16px auto;
-  color: #e17c38;
+  color: var(--secondary-colour);
   font-size: 60px;
   font-weight: normal;
   padding-top: 100px;
@@ -19,12 +21,12 @@ body {
 }
 
 .date {
-  font-family: "Source Serif 4", serif;
+  font-family: var(--primary-font);
   text-align: center;
   line-height: 1;
   margin: 8px 0;
   padding-bottom: 10px;
-  color: #e17c38;
+  color: var(--secondary-colour);
   font-size: 20px;
   font-weight: normal;
   text-transform: uppercase;
@@ -36,10 +38,53 @@ body {
 }
 
 .serif-medium {
-  font-family: "Source Serif 4", serif;
-  color: #e17c38;
+  font-family: var(--primary-font);
+  color: var(--secondary-colour);
 }
 
 .serif-medium:hover {
   transition: all 150ms ease-in-out;
+}
+
+.address {
+  padding: 30px;
+}
+
+.wedding-day {
+  padding: 30px;
+}
+
+.ceremony {
+  padding: 30px;
+}
+
+.wedding-breakfast {
+  padding: 30px;
+}
+
+.date-and-time {
+  margin: 8px 0px;
+  font-family: "Source Serif";
+  color: var(--secondary-colour);
+  font-size: 24px;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+h4 {
+  line-height: 1;
+  margin: 32px 0px 8px;
+  font-family: "Source Serif";
+  color: var(--secondary-colour);
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+main {
+  font-family: var(--primary-font);
+  color: var(--secondary-colour);
+  text-align: center;
 }
