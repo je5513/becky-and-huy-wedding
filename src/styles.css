@@ -1,6 +1,6 @@
 :root {
-  --primary-colour: #f8ebda;
-  --secondary-colour: #e17c38;
+  --primary-colour: #9c4234;
+  --secondary-colour: black;
   --primary-font: "Source Serif 4", serif;
 }
 
@@ -14,10 +14,8 @@ body {
   line-height: 1;
   margin: 16px auto;
   color: var(--secondary-colour);
-  font-size: 60px;
+  font-size: 70px;
   font-weight: normal;
-  padding-top: 100px;
-  padding-bottom: 15px;
 }
 
 .date {
@@ -25,7 +23,6 @@ body {
   text-align: center;
   line-height: 1;
   margin: 8px 0;
-  padding-bottom: 10px;
   color: var(--secondary-colour);
   font-size: 20px;
   font-weight: normal;
@@ -44,10 +41,6 @@ body {
 
 .serif-medium:hover {
   transition: all 150ms ease-in-out;
-}
-
-.main-info {
-  padding: 30px;
 }
 
 .date-and-time {
