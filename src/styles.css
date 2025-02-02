@@ -11,7 +11,6 @@ body {
 .header-image {
   width: 893px;
   height: 237px;
-  display: block;
   margin: 0 auto;
 }
 
@@ -43,7 +42,7 @@ body {
 
 .serif-medium {
   font-family: var(--primary-font);
-  color: var(--secondary-colour);
+  color: #565458;
 }
 
 .serif-medium:hover {
@@ -64,6 +63,20 @@ body {
   max-width: 100%;
 }
 
+.becky-and-wolfie {
+  max-width: 100%;
+}
+
+.wolfie-1 {
+  max-width: 100%;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: normal;
+  letter-spacing: 5px;
+}
+
 h4 {
   line-height: 1;
   margin: 32px 0px 8px;
@@ -81,7 +94,10 @@ main {
   text-align: center;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 800px) {
+  h4 {
+    font-size: 30px;
+  }
   .header-image {
     width: 375px;
     height: 100px;
