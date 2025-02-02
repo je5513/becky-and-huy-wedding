@@ -71,6 +71,10 @@ body {
   max-width: 100%;
 }
 
+p {
+  font-size: 18px;
+}
+
 h3 {
   font-size: 32px;
   font-weight: normal;
