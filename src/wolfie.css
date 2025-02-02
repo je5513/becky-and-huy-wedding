@@ -1,3 +1,12 @@
+.home {
+  text-decoration: none;
+  color: black;
+}
+
+.home:hover {
+  text-decoration: underline;
+}
+
 .spooky-w-1 {
   max-width: 100%;
 }
@@ -10,6 +19,23 @@
   padding: 15px 30px;
 }
 
+.wolfie-container {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color: #e7c496;
+}
+
+body {
+  background-color: #f5ad4f;
+}
+
 main {
   text-align: center;
+}
+
+p {
+  font-weight: bold;
+  color: black;
 }
