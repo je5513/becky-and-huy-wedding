@@ -1,6 +1,6 @@
 :root {
-  --primary-colour: #9c4234;
-  --secondary-colour: black;
+  --primary-colour: #f8f9fa;
+  --secondary-colour: #9c4234;
   --primary-font: "Source Serif 4", serif;
 }
 
@@ -9,8 +9,8 @@ body {
 }
 
 .header-image {
-  width: 893px;
-  height: 237px;
+  width: 575px;
+  height: 152px;
   margin: 0 auto;
 }
 
@@ -42,7 +42,7 @@ body {
 
 .serif-medium {
   font-family: var(--primary-font);
-  color: #565458;
+  color: #9c4234;
 }
 
 .serif-medium:hover {
@@ -71,6 +71,15 @@ body {
   max-width: 100%;
 }
 
+.p-container {
+  padding: 0;
+  margin: 1.1px auto;
+  max-width: 1000px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+}
+
 p {
   font-size: 18px;
 }
@@ -92,10 +101,15 @@ h4 {
   text-transform: uppercase;
 }
 
-main {
+main,
+footer {
   font-family: var(--primary-font);
   color: var(--secondary-colour);
   text-align: center;
+}
+
+footer p {
+  font-size: 13px;
 }
 
 @media (max-width: 800px) {
