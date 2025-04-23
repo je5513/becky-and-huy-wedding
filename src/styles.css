@@ -80,6 +80,48 @@ body {
   letter-spacing: 0.25px;
 }
 
+.card {
+  width: 500px;
+  background-color: white;
+}
+
+.card-body {
+  padding: 30px;
+  margin: 0 auto;
+  color: #9c4234;
+}
+
+.card-header {
+  padding: 30px;
+  color: #9c4234;
+  background-color: white;
+}
+
+.card-footer {
+  padding: 30px;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: block;
+  color: #ffffff;
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #9c4234;
+  text-decoration: none;
+}
+
 p {
   font-size: 18px;
 }
