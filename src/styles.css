@@ -176,6 +176,11 @@ footer p {
   h4 {
     font-size: 30px;
   }
+
+  .p-container {
+    padding: 30px;
+  }
+
   .header-image {
     width: 375px;
     height: 100px;
