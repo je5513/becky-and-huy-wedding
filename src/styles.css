@@ -59,6 +59,11 @@ body {
   letter-spacing: 4px;
 }
 
+.btn {
+  background-color: #9c4234;
+  color: #ffffff;
+}
+
 .b-h-1 {
   max-width: 100%;
 }
