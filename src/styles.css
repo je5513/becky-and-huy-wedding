@@ -177,6 +177,10 @@ footer p {
     font-size: 30px;
   }
 
+  .date-and-time {
+    font-size: 17px;
+  }
+
   .p-container {
     padding: 30px;
   }

@@ -25,12 +25,11 @@
   margin: 0 auto;
   border: 5px solid black;
   border-radius: 20px;
-  background-color: #e7c496;
+  background-color: #f09f8e;
 }
 
 body {
-  background-image: url("/images/4121807.jpg");
-  background-repeat: no-repeat;
+  background-image: url("/images/spooky-w-bg.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
